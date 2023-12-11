@@ -21,7 +21,7 @@ function toUpperCase(){
     let text = textArea.value.toUpperCase();
 
     let sentences = text.split(".");
-    for (var i = 0; i < sentences.length; i++) {
+    for (let i = 0; i < sentences.length; i++) {
         if (sentences[i].trim().length > 0) {
             sentences[i] = sentences[i].trim() + "-Moo";
         }
